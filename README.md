@@ -31,7 +31,9 @@ A simple and functional To-Do List application built with React.js.
 
 ## Live Demo
 
-[Live Demo](todo-app-psi-rosy.vercel.app)
+## Live Demo
+
+[Live Demo](https://todo-app-psi-rosy.vercel.app/)
 
 ## Project Screenshot
 
