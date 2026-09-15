@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+form {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form > p {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.btn {
+  padding: 8px 12px;
+  margin: 3px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.add-btn {
+  background-color: #333;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #555;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.edit-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #2980b9;
+}
+
+.complete-btn {
+  background-color: #27ae60;
+  color: white;
+}
+
+.complete-btn {
+  background-color: #219150;
+}
+
+.task {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: 0.3s;
+  flex-wrap: wrap;
+}
+
+.task:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task p {
+  margin: 0;
+  flex: 1;
+  word-break: break-word;
+  font-size: 16px;
+}
+
+.clear-btn {
+  background-color: #7f8c8d;
+  color: white;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.clear-btn:hover {
+  background-color: #626e70;
+}
+
+.task.completed {
+  opacity: 0.6;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 500px) {
+  form {
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .add-btn {
+    width: 100%;
+  }
+}
